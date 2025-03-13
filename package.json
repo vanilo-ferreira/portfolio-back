@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-back",
+  "version": "1.0.0",
+  "description": "backend of my proofissional portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vanilo Ferreira",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "nodemailer": "^6.10.0"
+  }
+}
