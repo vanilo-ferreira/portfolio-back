@@ -10,7 +10,7 @@ app.use(express.json());
 const corsOptions = {
     credentials: true,   
     optionSuccessStatus: 200,
-    origin: "http://localhost:5173",
+    origin: "https://portfolio-services-mzhd.onrender.com",
     methods: "GET,POST,PUT,DELETE",
     allowedHeaders: "Content-Type,Authorization",
 };
