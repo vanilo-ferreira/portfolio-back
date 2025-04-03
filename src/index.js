@@ -10,7 +10,7 @@ app.use(express.json());
 const corsOptions = {
     credentials: true,   
     optionSuccessStatus: 200,
-    origin: "https://portfolio-services-mzhd.onrender.com",
+    origin: "https://portfolio-m8sotfec1-vaniloferreiras-projects.vercel.app/",
     methods: "GET,POST,PUT,DELETE",
     allowedHeaders: "Content-Type,Authorization",
 };
