@@ -10,7 +10,7 @@ app.use(express.json());
 const corsOptions = {
   credentials: true,
   optionSuccessStatus: 200,
-  origin: "https://portfolio-one-flame-10.vercel.app/",
+  origin: "https://portfolio-one-flame-10.vercel.app",
   methods: "GET,POST,PUT,DELETE",
   allowedHeaders: "Content-Type,Authorization",
 };
